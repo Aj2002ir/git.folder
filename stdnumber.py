@@ -1,4 +1,3 @@
-
 name = input("نام دانشجو: ")
 student_id = input("شماره دانشجویی: ")
 major = input("رشته تحصیلی: ")
@@ -23,7 +22,6 @@ if average >= 12:
 else:
     status = "مشروط"
     
-print("-" * 40)
 print(f"نام: {name}")
 print(f"شماره دانشجویی: {student_id}")
 print(f"رشته: {major}")
