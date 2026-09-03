@@ -9,4 +9,4 @@ def max(a,b):
 a=int(input(""))
 b=int(input(""))
 max_of_nums= max(a,b)
-print(f"max of nums {a} and {b} is {max_of_nums}")
+print(f"max of nums {a} and {b} is {max_of_nums}")   
