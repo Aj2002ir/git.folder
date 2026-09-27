@@ -1,4 +1,4 @@
-def calculator(num1, num2, operator):
+def calculator(num1,num2,operator):
     if operator == "+":
         result = num1 + num2
     elif operator == "-":
@@ -7,20 +7,20 @@ def calculator(num1, num2, operator):
         result = num1 * num2
     elif operator == "/":
         if num2 == 0:
-            print("خطا: تقسیم بر صفر ممکن نیست")
-            return None
+            print("خطا: تقسیم بر صفر ممکن نیست!")
+            return result
         result = num1 / num2
     else:
         print("عملیات نامعتبره!")
-        return None
 
     return result
 
 
-num1 = float(input("number1: "))
-operator = input("(+,-,*,/): ")
-num2 = float(input("number2: "))
-result = calculator(num1, num2, operator)
+    
+num1 = float(input("number1:"))
+operator = input(" (+,-,*,/):")
+num2 = float(input("number2:"))
+result = calculator(num1,num2,operator)
 print("ماشین‌حساب")
 print("عملیات‌ها: + - * /")
-print(f"جواب: {result}")
+print(f"[جواب]: {result}")
